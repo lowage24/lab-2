@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+} 
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto';
+}
+.text{
+    font-size: 24px;
+    line-height: 28px;
+}
+.title{
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFF;
+} 
+.w_text{
+    color: #FFF;
+}
+.g_text{
+    color: #435766;
+}
+.link{
+    font-size: 16px;
+    line-height: 16px;
+}
+.w_link{
+    color: #FFF;
+}
+.g_link{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn{
+    font-size: 16px;
+    line-height: 21px;
+    border-radius: 4px;
+    color: #FFF;
+}
+.green_button{
+    background: #8DD83D;
+}
+.grey_button{
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+/* header */
+.header{
+    padding: 0px 165px;
+    height: 60px;
+    background: #373A3C;
+    border-radius: 4px;
+}
+.header__wrap{
+    padding: 11px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo{
+    height: 29px;
+}
+.header__up{
+    display: flex;
+}
+.header__logo img{
+    width: 100%;
+    height: 100%;
+}
+.header__links{
+    display: flex;
+    align-items: center;
+}
+.header__item:not(:last-of-type){
+    margin-right: 25px;
+}
+.header__input{
+    padding: 9px 0px 8px 16px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+.header__link{
+    display: flex;
+    align-items: center;
+}
+.header__link_arrow::after{
+    content: "";
+    background: url("../img/down-arrow.svg") no-repeat center center/cover;
+    display: block;
+    height: 7px;
+    width: 12px;
+    margin-left: 7px;
+}
+/* main */
+.main{
+    background: url("../img/Star-Wars-Battlefront-II-combat.png") no-repeat center center/cover;
+}
+.main__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.main__arrow{
+    width: 135px;
+    height: 644px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main__block{
+    margin: 210px -565px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.main__btn{
+    padding: 8px 24px 9px 19px;
+}
+.main__btn:not(:last-of-type){
+    margin-right: 12px;
+}
+/* best */
+.best{
+    background: url("../img/Rectangle.png") no-repeat center center/cover;
+}
+.best__text{
+    margin-top: 13px;
+    margin-bottom: 57px;
+    min-height: 73px;
+}
+.best__wrap{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 162px;
+}
+.best__logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+.best__texts{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.best__title_center{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    line-height: 56px;
+}
+.best__text_center{
+    display: flex;
+    justify-content: center;
+}
+.best__card{
+    background-color: #FFF;
+    width: 318px;
+    height: 418px;
+    border: 1px solid #8DD83D;
+    border-radius: 4px;
+}
+.best__cards{
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-around;
+}
+.best__card_left{
+    width: 279px;
+}
+.best__card_hover{
+    width: 350px;
+    height: 460px;
+}
+.best__img{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best__img img{
+    border-radius: 4px;
+}
+.best__img_hover{
+    height: 198px;
+}
+.best__img_left{
+    justify-content: flex-start;
+}
+.best__prevtitle{
+    margin-top: 22px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.best__prevblock{
+    margin-left: 22px;
+}
+.best__btn_first{
+    padding: 19px 23px 20px 23px;
+}
+.best__btn_second{
+    padding: 19px 64px 20px 64px;
+}
+.best__btn_third{
+    padding: 19px 80px 20px 80px;
+}
